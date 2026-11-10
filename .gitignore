@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Videos y modelos (pesan mucho, no van a git)
+data/videos/*
+data/output/*
+models/*.pt
+!data/videos/.gitkeep
+!data/output/.gitkeep
+!models/.gitkeep
+
+# Entorno
+.env
